@@ -16,12 +16,12 @@ teaches(peter,computer_science).
 
 
 % Verifique: 
-?- student_of(S,peter).
+%?- student_of(S,peter).
 
 % Experimente: 
-?- teaches(peter,expert_systems).
+%?- teaches(peter,expert_systems).
 
 % Experimente: 
-findall(X, teaches(X,expert_systems), Z).
+%findall(X, teaches(X,expert_systems), Z).
 
 
